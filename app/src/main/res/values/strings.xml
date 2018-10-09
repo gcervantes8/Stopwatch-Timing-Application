@@ -1,0 +1,57 @@
+<resources>
+
+    <!--Application name-->
+    <string name="app_name">Stopwatch/Timer</string>
+
+    <!--Time Buttons-->
+    <string name="resume">Resume</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="time">Time</string>
+
+    <!--Action bar items-->
+    <string name="add_stopwatch">Add Stopwatch</string>
+    <string name="add_stopwatch_split">Add Stopwatch Splitter</string>
+    <string name="add_timer">Add Timer</string>
+    <string name="settings">Settings</string>
+
+
+    <!--Quick Customization-->
+    add_segment
+    <string name="add_segment">Add segment</string>
+    <string name="remove_segment">Remove segment</string>
+    <string name="save_segments">Save segments</string>
+    <string name="show_milliseconds">Show Milliseconds</string>
+    <string name="increase_size">Increase size</string>
+    <string name="decrease_size">Decrease size</string>
+    <string name="advanced_configuration">Advanced configuration</string>
+
+    <!--Color Customization-->
+    <string name="default_color">Default Color</string>
+    <string name="random_color">Random Color</string>
+
+    <!--Colors-->
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="yellow">Yellow</string>
+    <string name="purple">Purple</string>
+    <string name="white">White</string>
+    <string name="black">Black</string>
+
+
+    <!--<string-array name="color_array">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Purple</item>
+    </string-array> -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+</resources>

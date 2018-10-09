@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="27dp"
+    android:background="@color/settings_inner_background"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jerryc.stopwatchtimer.SettingsActivity"
+    tools:showIn="@layout/activity_settings">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Background Color"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/colorSpinnerBackground"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Text Color"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/colorSpinnerText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Text Shadow Color"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/colorSpinnerTextShadow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <CheckedTextView
+        android:id="@+id/checkedTextViewMS"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="Show Milliseconds"
+        android:textAppearance="@android:style/TextAppearance.Material.Small"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/randomizeDesignSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:padding="8dp"
+        android:text="Randomize design on phone shake"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/timerNotificationsSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:checked="true"
+        android:padding="8dp"
+        android:text="Timer notifications"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/alternatingColorsSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:checked="true"
+        android:padding="8dp"
+        android:text="Alternating background colors"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jerryc.stopwatchtimer.TimerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/timeEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.95"
+            android:ems="10"
+            android:inputType="time"
+            android:text="1:00" />
+
+        <Button
+            android:id="@+id/moveUp"
+            android:layout_width="4dp"
+            android:layout_height="31dp"
+            android:layout_weight=".08"
+            android:alpha="0.5"
+            android:background="@android:drawable/arrow_up_float" />
+
+        <Button
+            android:id="@+id/moveDown"
+            android:layout_width="4dp"
+            android:layout_height="31dp"
+            android:layout_weight=".08"
+            android:alpha="0.5"
+            android:background="@android:drawable/arrow_down_float" />
+
+        <Button
+            android:id="@+id/removeFragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:background="@android:color/transparent"
+            android:minHeight="4dp"
+            android:minWidth="5dp"
+            android:shadowColor="@android:color/background_dark"
+            android:shadowRadius="10"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="25dp"
+            android:onClick="startButtonClicked"
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="25dp"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+</LinearLayout>

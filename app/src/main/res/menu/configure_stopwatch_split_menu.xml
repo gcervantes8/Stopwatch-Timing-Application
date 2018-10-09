@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addSegment"
+        android:enabled="true"
+        android:title="@string/add_segment"
+        android:visible="true" />
+    <item
+        android:id="@+id/removeSegment"
+        android:enabled="true"
+        android:title="@string/remove_segment"
+        android:visible="true" />
+    <item
+        android:id="@+id/saveSegments"
+        android:enabled="true"
+        android:title="@string/save_segments"
+        android:visible="true" />
+    <item android:id="@+id/ShowMilliseconds"
+        android:title="@string/show_milliseconds"
+        android:checkable="true"
+        android:enabled="true"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/increaseSize"
+        android:enabled="true"
+        android:title="@string/increase_size"
+        android:visible="true" />
+    <item
+        android:id="@+id/decreaseSize"
+        android:enabled="true"
+        android:title="@string/decrease_size"
+        android:visible="true" />
+    <item
+        android:id="@+id/openAdvancedConfigurations"
+        android:enabled="true"
+        android:title="@string/advanced_configuration"
+        android:visible="true" />
+
+
+</menu>

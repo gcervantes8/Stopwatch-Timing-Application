@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group">
+        <item android:id="@+id/addStopwatch"
+            android:title="@string/add_stopwatch" />
+        <item android:id="@+id/addStopwatchSplit"
+            android:title="@string/add_stopwatch_split" />
+        <item android:id="@+id/addTimer"
+            android:title="@string/add_timer" />
+
+    </group>
+    <item android:id="@+id/settings"
+        android:title="@string/settings" />
+</menu>
